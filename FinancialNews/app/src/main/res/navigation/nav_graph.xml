@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/financialNewsListFragment">
+
+    <fragment
+        android:id="@+id/financialNewsListFragment"
+        android:name="android.project.financialnews.views.FinancialNewsListFragment"
+        android:label="FinancialNewsListFragment" >
+        <action
+            android:id="@+id/action_financialNewsListFragment_to_financialNewsDetailFragment"
+            app:destination="@id/financialNewsDetailFragment" />
+        <argument
+            android:name="newsList"
+            app:argType="string" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/financialNewsDetailFragment"
+        android:name="android.project.financialnews.views.FinancialNewsDetailFragment"
+        android:label="FinancialNewsDetailFragment" />
+</navigation>

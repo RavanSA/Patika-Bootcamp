@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinancialNews</string>
+    <string name="test_title">SpaceX Rival Loses Hundreds of Millions Over Cancelled Russian Launches</string>
+    <string name="test_desc">British satellite company OneWeb is claiming to have suffered a major financial blow after having to cancel launches aboard Russian Soyuz rockets, and as the Russian space agency refuses to return 36 of t</string>
+    <string name="test_author">Author Author</string>
+    <string name="test_date">2022.03.04 13:14</string>
+    <string name="recycler_title">Breaking News</string>
+    <string name="test_content">Sept 13 (Reuters) - For years, ether could barely dream of challenging its big brother bitcoin. Now, its ambitions may be becoming more realistic.\r\nThe second-biggest cryptocurrency is taking market … </string>
+</resources>
