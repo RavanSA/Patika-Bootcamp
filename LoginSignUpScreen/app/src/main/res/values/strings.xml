@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginSignUpScreen</string>
+    <string name="welcome_login">Welcome to \n Bauuss</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username_label">Username</string>
+    <string name="email_label">Email Address</string>
+    <string name="email_hint">example@example.com</string>
+</resources>
