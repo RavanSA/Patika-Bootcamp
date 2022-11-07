@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="listLength"
+            type="android.project.assignmentweek5.data.local.database.entity.FavoritesEntity" />
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.posts.FavoritesFragment">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFavoritesList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/favorites_item_layout" />
+
+
+        <TextView
+            android:id="@+id/tvEmptyList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="No post added to favorites"
+            android:textSize="30sp"
+            android:visibility="invisible"
+            />
+
+    </FrameLayout>
+</layout>
